@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMC Digital Teknologi - Provider WiFi Terdepan</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/img/pmc.png" alt="PMC Digital Logo">
+                <h1>CV.PMC Digital Teknologi</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMobileNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href="#home" onclick="closeMobileNav()">Beranda</a></li>
+                <li><a href="#services" onclick="closeMobileNav()">Layanan</a></li>
+                <li><a href="#gallery" onclick="closeMobileNav()">Galeri</a></li>
+                <li><a href="#about" onclick="closeMobileNav()">Tentang</a></li>
+                <li><a href="#contact" onclick="closeMobileNav()">Kontak</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Floating Elements -->
+        <div class="floating-element">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
+                <path d="M2 17L12 22L22 17"/>
+                <path d="M2 12L12 17L22 12"/>
+            </svg>
+        </div>
+        <div class="floating-element">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6V12L16 14"/>
+            </svg>
+        </div>
+        <div class="floating-element">
+            <svg width="50" height="50" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16V8C21 6.9 20.1 6 19 6H5C3.9 6 3 6.9 3 8V16C3 17.1 3.9 18 5 18H19C20.1 18 21 17.1 21 16Z"/>
+                <path d="M7 10L12 13L17 10"/>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    🚀 Provider WiFi Terdepan di Indonesia
+                </div>
+                
+                <h1>Koneksi Internet Super Cepat untuk Masa Depan Digital</h1>
+                
+                <p>
+                    solusi kebutuhan internet kamu Dengan jangkauan jaringan yang luas, Kami hadir untuk solusi bagi Anda yang membutuhkan Koneksi Internet yang Cepat, Stabil dan Murah
+                </p>
+                
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                        </svg>
+                        Berlangganan Sekarang
+                    </a>
+                    <a href="#services" class="cta-button secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L13.09 8.26L19 7L17.74 13.09L22 12L15.74 16.26L16 19L9.91 15.74L9 22L8.09 15.74L2 17L3.26 10.91L0 12L6.26 7.74L6 5L12.09 8.26L12 2Z"/>
+                        </svg>
+                        Lihat Paket
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div>Scroll</div>
+        </div>
+    </section>
+
+    <!-- Internet Info Section -->
+    <section id="services" class="internet-info">
+        <div class="container">
+            <div class="section-title">
+                <h2>Butuh Internet Cepat & Aman?</h2>
+            </div>
+
+            <div class="internet-content">
+                <div class="content-text">
+                    <p><span class="highlight">Kami Hadir Dengan Harga Terjangkau Dan Terpercaya</span>, Browsing lancar, Streaming Tanpa Buffering</p>
+                    
+                    <p>Kamu pasti mau kan memiliki internet yang stabil bahkan kalau streaming tanpa adanya buffering? Kami siap memberikan pelayanan terbaik dan kamu bisa konsultasi secara langsung dengan kami loh.</p>
+                    
+                    <p><span class="highlight">Nikmati Internet Cepat Dirumah Kamu</span></p>
+                    
+                    <p>Mengakses Internet lancar dengan harga yang lebih terjangkau, kami siap membantu kamu menikmati kenyamanan browsing hingga streaming.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Paket Internet Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Paket Internet Unggulan</h2>
+                <p>Pilih paket internet yang sesuai dengan kebutuhan Anda dengan harga terjangkau</p>
+            </div>
+
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
+                                <path d="M2 17L12 22L22 17"/>
+                                <path d="M2 12L12 17L22 12"/>
+                            </svg>
+                        </div>
+                        <h3>Paket A</h3>
+                        <div class="package-speed">6 Mbps</div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">120</span>
+                        <span class="period">ribu/bulan</span>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Koneksi stabil dan cepat
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Cocok untuk penggunaan sehari-hari
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Layanan pelanggan 24/7
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Garansi kepuasan
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="package-btn">Pilih Paket</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L13.09 8.26L19 7L17.74 13.09L22 12L15.74 16.26L16 19L9.91 15.74L9 22L8.09 15.74L2 17L3.26 10.91L0 12L6.26 7.74L6 5L12.09 8.26L12 2Z"/>
+                            </svg>
+                        </div>
+                        <h3>Paket B</h3>
+                        <div class="package-speed">10 Mbps</div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">150</span>
+                        <span class="period">ribu/bulan</span>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Koneksi stabil dan cepat
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Ideal untuk keluarga
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Layanan pelanggan 24/7
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Garansi kepuasan
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="package-btn">Pilih Paket</a>
+                </div>
+
+                <div class="package-card popular">
+                    <div class="popular-badge">POPULER</div>
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L15.09 8.26L22 9L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9L8.91 8.26L12 2Z"/>
+                            </svg>
+                        </div>
+                        <h3>Paket C</h3>
+                        <div class="package-speed">30 Mbps</div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">200</span>
+                        <span class="period">ribu/bulan</span>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Koneksi super cepat
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Cocok untuk streaming & gaming
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Layanan pelanggan 24/7
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Garansi kepuasan
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="package-btn">Pilih Paket</a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <div class="package-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13 3L16.09 9.26L23 10L18 15.14L19.18 21.02L13 17.77L6.82 21.02L8 15.14L3 10L9.91 9.26L13 3Z"/>
+                            </svg>
+                        </div>
+                        <h3>Paket D</h3>
+                        <div class="package-speed">50 Mbps</div>
+                    </div>
+                    <div class="package-price">
+                        <span class="currency">Rp</span>
+                        <span class="amount">250</span>
+                        <span class="period">ribu/bulan</span>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Koneksi premium tercepat
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Ideal untuk bisnis & kantor
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Layanan pelanggan 24/7
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 16.17L4.83 12L3.41 13.41L9 19L21 7L19.59 5.59L9 16.17Z"/>
+                                </svg>
+                                Garansi kepuasan
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="package-btn">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- About PMC Section -->
+     <section id="about-pmc" class="about-pmc">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-title">
+                        <h2>Tentang PMC Digital Teknologi</h2>
+                    </div>
+                    
+                    <div class="about-description">
+                        <p>
+                            <span class="highlight">PMC Digital Teknologi</span> merupakan salah satu penyedia layanan internet, dimana saat ini telah mempunyai lisensi sebagai mitra ISP <strong>GLOBAL MEDIA DATA PRIMA</strong>.
+                        </p>
+                        
+                        <p>
+                            Tujuan kami adalah memberikan pelayanan yang <span class="highlight">kreatif, inovatif, dan berdaya saing tinggi</span> di industri telekomunikasi.
+                        </p>
+                        
+                        <p>
+                            Dengan dukungan dan kepercayaan dari para pelanggan, akan selalu memberi yang terbaik untuk memenuhi kebutuhan pengguna internet pada umumnya.
+                        </p>
+                        
+                        <p>
+                            Melalui pengalaman dan tenaga ahli yang profesional di bidang networking, kami dapat memberikan <strong>solusi dan support</strong> atas kebutuhan Internet Anda.
+                        </p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L13.09 8.26L19 7L17.74 13.09L22 12L15.74 16.26L16 19L9.91 15.74L9 22L8.09 15.74L2 17L3.26 10.91L0 12L6.26 7.74L6 5L12.09 8.26L12 2Z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Lisensi Resmi</h4>
+                                <p>Mitra ISP Global Media Data Prima</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1L13.5 2.5L16.17 5.33L10.5 11H7V13H9L10.5 18H13L11.5 13H12.5L18 7.17L19.5 8.67L21 7.17V9H21Z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Tenaga Ahli</h4>
+                                <p>Tim profesional bidang networking</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 1L9 9L1 12L9 15L12 23L15 15L23 12L15 9L12 1Z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Inovasi Terdepan</h4>
+                                <p>Layanan kreatif & berdaya saing tinggi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="assets/img/dokumentasi4.jpg" alt="PMC Digital Teknologi Team">
+                    <div class="image-overlay">
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>1000+</h3>
+                                <p>Pelanggan Puas</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>24/7</h3>
+                                <p>Customer Support</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>99.9%</h3>
+                                <p>Network Uptime</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Dokumentasi & Galeri</h2>
+                <p>Lihat dokumentasi instalasi, infrastruktur, dan kepuasan pelanggan kami</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/img/dokumentasi1.jpg" alt="Instalasi Fiber Optic">
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/img/dokumentasi2.jpg" alt="Data Center">
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/img/dokumentasi3.jpg" alt="Network Infrastructure">
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="assets/img/dokumentasi4.jpg" alt="Customer Support">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Kami</h2>
+                <p>Siap melayani Anda dengan sepenuh hati. Hubungi kami untuk konsultasi gratis dan penawaran terbaik.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Email</strong><br>
+                            pmcdigitalteknologi@gmail.com
+                        </div>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9S10.62 6.5 12 6.5 14.5 7.62 14.5 9 13.38 11.5 12 11.5Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Alamat</strong><br>
+                            Jl. Cipetir-Sudajaya, Sukamaju, <br> 
+                            Kec. Kadudampit, Kabupaten Sukabumi, <br> Jawa Barat 43153
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.15C10.59 20.15 9.15 19.75 7.89 19L7.55 18.83L4.42 19.58L5.18 16.5L4.96 16.13C4.17 14.81 3.75 13.27 3.75 11.91C3.75 7.37 7.49 3.63 12.04 3.63C14.23 3.63 16.3 4.43 17.85 5.98C19.4 7.53 20.2 9.6 20.2 11.91C20.2 16.46 16.46 20.15 12.05 20.15Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>WhatsApp</strong><br>
+                            +62 858 7212 1214<br>
+                            Customer Service 24/7
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support By Section -->
+    <section class="support-by">
+        <div class="container">
+            <div class="section-title">
+                <h2>Didukung Oleh</h2>
+            </div>
+            
+            <div class="support-logos">
+                <img src="assets/img/rmdp.png" alt="rmdp">
+                <img src="assets/img/iforte.png" alt="iforte">
+                <img src="assets/img/kominfo.png" alt="kominfo">
+                <img src="assets/img/datakom.png" alt="datakom">
+                <img src="assets/img/mvnet.png" alt="mvnet">
+                <img src="assets/img/apjii.png" alt="apjii">
+                <img src="assets/img/rbn.png" alt="rbn">
+            </div>
+        </div>
+    </section>
+
+     <!-- WhatsApp Floating Button -->
+     <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20bertanya" class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516"/>
+        </svg>
+        <span class="tooltip">Chat WhatsApp</span>
+    </a>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="container">
+            <p>&copy; 2024 PMC Digital Teknologi. Semua hak cipta dilindungi. Menghadirkan koneksi internet terbaik untuk Indonesia.</p>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/script.js">
+        
+    </script>
+</body>
+</html>
